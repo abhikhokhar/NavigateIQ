@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import GoogleMapReact from "google-map-react";
-import { Paper, Typography } from "@mui/material";
+import { Paper, Rating, Typography } from "@mui/material";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 
 function Map({ setCoordinates, setBounds, coordinates, places }) {
@@ -65,6 +65,7 @@ function Map({ setCoordinates, setBounds, coordinates, places }) {
                 <Typography variant="subtitle2" className="text-gray-800 font-bold">
                   {place.name || "Unnamed Place"}
                 </Typography>
+                <Rating value={Number(place.rating)} readOnly />
               </Paper>
             </div>
 
