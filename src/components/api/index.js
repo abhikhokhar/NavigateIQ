@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-
+console.log('RapidAPI Key:', import.meta.env.VITE_RAPID_API_KEY);
 
 
 export const getplacesdata = async (type, sw,ne)=>{
@@ -19,6 +19,7 @@ export const getplacesdata = async (type, sw,ne)=>{
 
     });
     return data;
+
   }catch (error){
     console.log(error);
   }
