@@ -4,7 +4,7 @@ NavigateIQ is a modern, user-friendly travel advisory application designed to he
 
 ---
 
-## Features
+## Features 🌟
 - **Interactive Map**: Displays nearby places such as restaurants, hotels, and attractions with markers.
 ![image](https://github.com/user-attachments/assets/0ed1e2ea-952c-45b6-b10e-3a012b0e77f5)
 
@@ -19,14 +19,14 @@ NavigateIQ is a modern, user-friendly travel advisory application designed to he
 
 ---
 
-## Tech Stack
+## Tech Stack  🛠️
 
 ### Frontend
 - **React**: Component-based UI development.
 - **Material-UI**: Modern UI components and styling.
 - **Google Map React**: Interactive map integration.
 
-### API Integration
+### API Integration 🌍
 - **RapidAPI**: Fetches data for restaurants, hotels, and attractions.
 - **Google Maps API**: Provides map functionality and marker placement.
 
@@ -57,7 +57,7 @@ NavigateIQ is a modern, user-friendly travel advisory application designed to he
 
 ---
 
-## Project Structure
+## Project Structure 📂
 - **`/src/components`**:
   - `Map`: Displays an interactive map with markers for places.
   - `List`: Sidebar with filters and list of places.
@@ -73,12 +73,12 @@ NavigateIQ is a modern, user-friendly travel advisory application designed to he
 Used to fetch details about restaurants, hotels, and attractions.
 - Example: `getplacesdata(type, sw, ne)`
 
-### 2. Google Maps API
+### 2. Google Maps API 🌍
 Handles the interactive map and place markers.
 
 ---
 
-## Future Enhancements
+## Future Enhancements ⚡
 1. **User Authentication**: Allow users to log in and save their favorite places.
 2. **Weather Information**: Display weather data for the selected location.
 3. **Multi-Language Support**: Support for multiple languages to reach a broader audience.
@@ -105,12 +105,12 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## License
+## License 📜
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## Acknowledgments
+## Acknowledgments ⚡
 - **React**: Framework for building the application.
 - **Material-UI**: For beautiful UI components.
 - **RapidAPI**: For data APIs.
